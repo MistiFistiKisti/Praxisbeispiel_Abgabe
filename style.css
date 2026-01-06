@@ -141,18 +141,25 @@ h2{
   height: 100%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .parent {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
 
+  .div1, .div2, .div3 {
+    grid-area: auto; 
+    font-size: 16px; 
+    padding: 15px;
+  }
   .topBar {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
     gap: 5px;
+    height: auto;
   }
 
-  .topdiv2 {
-    font-size: 25px;
-    margin-top: 0;
+  .topdiv1, .topdiv2, .topdiv3 {
+    margin: 0; 
+    font-size: 18px;
   }
 }
