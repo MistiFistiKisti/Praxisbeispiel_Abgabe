@@ -140,3 +140,19 @@ h2{
   text-align: center;
   height: 100%;
 }
+
+@media (max-width: 600px) {
+  .parent {
+    grid-template-columns: 1fr;
+  }
+
+  .topBar {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .topdiv2 {
+    font-size: 25px;
+    margin-top: 0;
+  }
+}
