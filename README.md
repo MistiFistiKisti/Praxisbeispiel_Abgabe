@@ -4,7 +4,7 @@ Für das Praxisbeispiel für die LVA: Info- und Datenrecht
 ## Produkt: 
 - Private Server für ein Videospiel (Welches über ein Abbonement läuft)
 - Eigener Client
-- Kostenfrei
+- Kostenlos
 
 ## Unternehmen:
 - GameX-Servers
@@ -12,4 +12,4 @@ Für das Praxisbeispiel für die LVA: Info- und Datenrecht
 - Mitarbeiteranzahl: 10
 
 ## Modell?:
-Kostenfrei, jedoch werden Ingame-Käufe (nur kosmetisch) angeboten.
+Kostenlos
