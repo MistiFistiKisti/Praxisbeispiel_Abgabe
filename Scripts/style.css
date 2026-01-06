@@ -1,15 +1,11 @@
 .parent {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: 1fr;
-grid-column-gap: 10px;
-
-margin-top: 20px;
-margin-bottom: 20px;
-
-justify-content: center;
-text-align: center;
-opacity: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 10px; 
+  margin: 20px 0;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.9;
 }
 
 .topBar {
@@ -143,4 +139,27 @@ h2{
   justify-content: center;
   text-align: center;
   height: 100%;
+}
+
+@media (max-width: 800px) {
+  .parent {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .div1, .div2, .div3 {
+    grid-area: auto; 
+    font-size: 16px; 
+    padding: 15px;
+  }
+  .topBar {
+    grid-template-columns: 1fr; 
+    gap: 5px;
+    height: auto;
+  }
+
+  .topdiv1, .topdiv2, .topdiv3 {
+    margin: 0; 
+    font-size: 18px;
+  }
 }
