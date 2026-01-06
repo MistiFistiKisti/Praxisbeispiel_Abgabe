@@ -13,3 +13,6 @@ Für das Praxisbeispiel für die LVA: Info- und Datenrecht
 
 ## Modell?:
 Kostenlos
+
+## Verfügbar?
+Am Computer, sowie am Handy verfügbar und funktionell. 
