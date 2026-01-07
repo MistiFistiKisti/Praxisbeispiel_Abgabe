@@ -1,5 +1,5 @@
 # Praxisbeispiel_Abgabe
-Für das Praxisbeispiel für die LVA: Info- und Datenrecht
+Für das Praxisbeispiel für die LVA: Daten- und Informatikrecht
 
 ## Produkt: 
 - Private Server für ein Videospiel (Welches über ein Abbonement läuft)
