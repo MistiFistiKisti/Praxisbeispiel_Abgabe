@@ -56,6 +56,11 @@ a {
   display: inline-block;
 }
 
+a:focus {
+  outline: 3px solid #38bdf8; 
+  outline-offset: 2px;
+}
+
 a:hover {
   background: darkblue;
 }
@@ -83,7 +88,7 @@ h2{
   position: fixed;
   bottom: 10px;
   left: 10px;
-  width: 160px;
+  width: 100px;
   height: auto;
   z-index: 1000;
 }
